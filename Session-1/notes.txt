@@ -224,3 +224,203 @@ COMMENTS
 	DATE: 29/10/2022
 	*/
 
+***************************************************************************************************************
+ALGORITHM:
+***************************************************************************************************************
+
+- it is set of well defined instructions to solve a particular problem
+- it takes a set of input(s) and produces the desired output. For ex:
+	1. Take Two numbers Input
+	2. Add Numbers using the Operator
+	3. Display the Result
+
+What are the Quality of Good ALGORITHM?
+----------------------------------------
+
+1. input and output should be defined clearly
+2. Each step in the algorithm should be clear
+3. Algorithm shouldn.t include computer codes. instead of this algorithm should be written in such a way that it can be used in different programming languages.
+
+
+
+***************************************************************************************************************
+RELATIONAL OPERATORS
+***************************************************************************************************************
+USED TO COMPARE:
+
+<  ----------------> lESS THAN
+>  ----------------> GREATER THAN
+<= ----------------> lESS THAN OR EQUALS
+>= ----------------> GREATER THAN OR EQUALS
+== ----------------> EQUALS
+!= ----------------> NOT EQUALS
+
+PREPARE ONE PROGRAM OUT OF ANY OF THE ABOVE OPERATOR AND GET THE RESULT
+--------------------------------------------------------------------------
+
+WHEN YOU WANT TO CHECK SOME CONDITION, CONDITIONAL STATEMENTS ARE USED FOR CHECKING CONDITIONS
+
+if, else if we can use for condition
+
+-----------------------------------------------
+syntax
+--------
+
+if(condition)
+{
+
+	//write your code for correct condition
+
+}
+else 
+{
+	
+	// write your code for incorrect condition
+	
+}
+
+Example:1
+------------------
+
+ 
+#include <stdio.h>
+
+int main()
+{
+    int num1=50;
+    int num2=20;
+    
+    if(num1>num2)
+    {
+        printf("%d is larger",num1);
+    }
+    else
+    {
+        printf("%d is smaller",num2);
+    }
+
+
+}
+
+
+TASK: 
+-------------------------
+1. Write A Program to display your name, address,phone,Qualification details line by line.
+2. WAP to Calculate area of Square and Rectangle
+	- Area of Square = (side * side)
+	- Area of Rectangle = Lenght * Breadth
+3. WAP to claculate are of circle.
+	- Area of circle = pi *r *r
+	- pi=3.14;
+	(HINT: declare a varibale float pi=3.14)
+
+4 WAP to calculate Circumference of Circle
+
+	- Circumference of circle = 2 * pi * radius
+5. WAP to calculate Perimeter of Square and Rectangle
+
+	- Perimeter is sum of all sides
+	- Perimeter of square = 4 * sides
+	- Perimeter of rectangle= l+l+b+b=2(l+b)
+6. WAP to calculate Simple Interest
+	formula: PNR/100
+	P:  principle amount (3000)
+	N:  no .of Years (3)
+	R:  Rate of Interest (8.40)
+
+7. WAP to check the user is valid for vote or not?
+	(hint: age>18)
+
+8. WAP to check whether the number is divisible by 3 or not?
+
+
+
+
+solution:
+
+
+
+ 
+#include <stdio.h>
+
+int main()
+{
+    //square
+    int side =10;
+    int area_square= side * side ;
+    
+    printf("Area of Square: %d \n",area_square);
+    
+    //rectangle
+    int length=5;
+    int breadth=6;
+    
+    int area_rectangle= length * breadth;
+    
+    printf("Area of Rectangle: %d \n",area_rectangle);
+    
+    
+    //circle
+    float pi=3.14;
+    float radius=5;
+    float area_circle= pi * radius * radius;
+    
+    printf("Area of circle : %f \n",area_circle);
+    
+    //permeter of circle
+    printf("Permieter of Circle:%f \n",2*pi*radius);
+    
+    //permeter of square
+    printf("Permieter of square:%d \n",4*side);
+    
+    //permeter of rectangle
+    printf("Permieter of rectangle:%d \n",2*(length+breadth));
+    
+    //age validity
+     int num1= 20;
+     int num2= 18;
+
+    if(num1>num2){
+        printf("User is Valid for Vote \n");
+        
+    }
+
+    
+    // simple interest
+    float P=100;
+    float N=3;
+    float R=8.40;
+    float SI=((P*N*R)/100);
+    printf("Simple Interest = %f \n",SI);
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
