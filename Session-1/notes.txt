@@ -202,5 +202,25 @@ int main(){
     printf("%d / %d =%d \n",num1,num2,divide);
 }
 
+***************************************************************************************************************
+COMMENTS
+***************************************************************************************************************
+- THEY ARE NON-EXECUTABLE CODE IN YOUR PROGRAM (NOT RUN IN THE PROGRAM)
 
+- WE CAN WRITE THIS FOR  DEVELOPER UNDERSTANDING
+
+- THERE ARE TWO TYPES OF COMMENTS
+	1. SINGLE LINE COMMENT
+	2. MULTI LINE COMMENT
+
+1. SINGLE LINE COMMENT
+	// this is sinle line comment
+
+2. MULTI LINE COMMENT
+	/*
+
+	This is multiline comment
+	DEVELOPER NAME: NIKUNJ SONI
+	DATE: 29/10/2022
+	*/
 
