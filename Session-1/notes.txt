@@ -1,0 +1,24 @@
+Website
+-----------
+	There are two types of website
+	1. Static Website
+	-------------------------------------
+	- where user can't do interaction (Wickipedia)
+	
+	2. Dynamic Website
+	-------------------------------------
+	- where user can do interaction (Login,Registration, Update Profile, Like, Comments, etc..)
+	- example: facebook, Amazon.com, Flipkart.com
+
+Programming Language :
+------------------------
+- a language which is used to create a program using that you can communicate with computer system or with application
+
+Examples: Python, JS, C#, C++,Java
+
+
+How it is working?:
+------------------------
+- programming language means where you can't run the programm directly, First we have to convert itin machine understable code and then only we can run it.
+
+- machine undestable code is called as byte code(native code)
