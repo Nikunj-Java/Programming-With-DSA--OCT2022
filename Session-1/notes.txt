@@ -51,3 +51,57 @@ WEB APPLICATION
 -------------------
 	- Its store the data of webaaplication or all of your information
 	- examples: Oracle,MySql,MS SQL Server, MongoDB, MS ACCESS etc..,
+
+
+***************************************************************************************************************
+BASIC OF COMPUTER PROGRAMMING LANGUAGE
+***************************************************************************************************************
+
+VARIABLE:
+---------------
+	- whose value can be varied and not fixed everytime
+	- whenever you try to work  with some program you required to take input from user and process the input and generate output
+	- for that you required some temperary storage to store this input and output values.
+	- for that we can declare variables
+	- it store the value and you can process the same.
+
+IDENTIFIER:
+----------------
+	- to identify a variable created , we required indetifier
+	- we can sya that name of variable
+	- to name the varibale we need to follow some set of rules
+
+RULEs:
+-----------------
+	1. variable name can't start with a number (1num is not valid)
+	2. it can be an aplhanumeric (num1 is valid)
+	3. No SPecial Character are Allowed (.,?/ space etc)
+	4. Only _ and $ you can use while giving the variable name.
+	5. it can not be more than 255 character long.\
+	6. naming conventions: first world should be in lower case. if it contains more words then second word first letter shoul be in capital
+	(eg: firstName,lastName,mobileNo..) or
+	(eg: first_name,last_name,mobile_no)
+	7. should not give the name of varibale with reserved KEYWORDS
+
+KEYWORDS:
+--------------
+- A specific keyword which are basically used to write code in programming langugae.
+- like if, else, switch, include,int,float,boolean,double,char etc...,
+
+
+***************************************************************************************************************
+DATA TYPES
+***************************************************************************************************************
+
+-whenever you try to store yoour data, your memory must assign a memory size to that variable it can store values inside the same, that you can define the type of your data .means your data can be a number, text,single character, or boolean data type(True or false)
+
+1. WHOLE NUMBER (0,1,2,3,4,5.......) : IT CAN BE ZERO OR POSITIVE: int
+
+2. DECIMAL NUMBER (1.2,4.6 ) : it can be negative or positive or zero but with floating pionts: float
+
+3. SINGLE CHARACTER ('a', 'l','p') : char
+
+4. TEXT - sequence of characters ("NIKUNJ")- Array of char
+
+5. single bit value (0 or 1) --0--flase, 1- true
+
