@@ -105,3 +105,102 @@ DATA TYPES
 
 5. single bit value (0 or 1) --0--flase, 1- true
 
+***************************************************************************************************************
+
+syntax:
+
+-------------------------------------------------------
+
+#include<stdio.h>
+
+int main(){
+
+    printf("Hello World From : SimpliLearn");
+
+}
+--------------------------------------------------------
+
+#include include library mentioned inside angle brackets, that menas if you want to use library then take the permission from the same and start using its function
+
+			like:  #include <stdio.h>
+
+-stdio.h is the library which provides  function related to standard input and output.
+
+
+-int main(){  }--- called as main function (from where the program starts its execution)
+
+-int it is a return type , that means when function executed it return  some value
+
+-main is the method name where () says no parameters required to run this function
+
+-if you want to pass parameters the function look like this 
+	eg: main(int  num1, int num2){}
+-{ } called as block of code where you can write statements for you logic
+
+-printf is the function available in stdio.h library which is used to display some value as an output
+
+-each statement must ends with semicolon(;) 
+
+***************************************************************************************************************
+COMPILER AND PROGRAMMS
+***************************************************************************************************************
+LINK:https://www.onlinegdb.com/online_c_compiler
+
+Simple Program with Variable declaration
+----------------------------------------------------
+#include <stdio.h>
+
+int main()
+{
+     int num1=10;
+     int num2=20;
+     int result= num1+num2;
+     
+     printf("Number 1=%d \n",num1);
+     printf("Number 2=%d \n",num2);
+     printf("Result =%d \n",result);
+     printf("%d + %d = %d",num1,num2,result);
+}
+
+=%d is used for integer or decimal datataype
+\n is used for new line
+
+
+OPERATORS
+-----------------------------------------------------
+
+Arithmatic Operators
+----------------------
++ addition
+- subtraction
+* multiplication
+/ division
+
+
+#include<stdio.h>
+
+int main(){
+    
+    int num1= 100;
+    int num2= 50;
+    
+    int add= num1+num2;
+    int sub= num1-num2;
+    int mul=num1*num2;
+    int divide= num1/num2;
+    
+    printf("Number 1=%d \n",num1);
+    printf("Number 2=%d \n",num2);
+    
+    printf("%d + %d =%d \n",num1,num2,add);
+    printf("%d -%d =%d \n",num1,num2,sub);
+    
+    
+    //display the result of multiplication and division
+    
+    printf("%d *%d =%d \n",num1,num2,mul);
+    printf("%d / %d =%d \n",num1,num2,divide);
+}
+
+
+
