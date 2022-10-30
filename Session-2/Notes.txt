@@ -197,3 +197,63 @@ int main()
     //endl -------------is used for endling a line and print next line 
     //either use \n or endl
 }
+
+
+
+SWITCH CASE
+------------------------------
+- in switch case - the condition that you want to match an int or string or char and compare , Accordingly you will get output
+
+- this you can do it with if and else case but what happens everytime it will check each condition which make it slower, menas  to check the condition it takes time. so if you directly want to jump on some  cases we can go for Switch Case
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num1,num2;
+    cout<<"Enter 2 Numbers"<<endl;
+    cin>>num1>>num2;
+    
+    char op;
+    cout<< "Enter any operator From + - * /"<<endl;
+    
+    
+    cin>>op;
+    
+    
+    switch(op){
+        case '+': cout<<"Addition: "<<(num1+num2)<<endl;
+                break;
+        case '-': cout<<"Subtraction: "<<(num1-num2)<<endl;
+                break;
+        case '*': cout<<"Multiplication: "<<(num1*num2)<<endl;
+                break;
+                //write case for Division
+        default : cout<<"Kindly Enter Proper Operator"<<endl;        
+    }
+}
+
+[NOTE:  1. cout<<  -----is used for printing a value inside console
+	2. cin>>   -----is used for taking input from user]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
