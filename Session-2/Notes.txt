@@ -349,18 +349,30 @@ int main()
     cout<<"Loop terminated"<<endl;
 }
 
+===========================================================
+Task: WAP to take input from user and iterate the for loop
+===========================================================
 
+solution:
+#include <iostream>
+using namespace std;
 
-
-
-
-
-
-
-
-
-
-
-
-
+int main()
+{
+    int i;
+    int sum=0;
+    int input;
+    cout<<"Enter any Numbers"<<endl;
+    cin>>input;
     
+    for(i=1; i<=input;i++){
+        sum=sum+i;
+        cout<<"Value of i :" <<i<<endl;
+        cout<<"Value of Sum is :" <<sum<<endl;
+    }
+    
+    cout<<"Loop terminated"<<endl;
+     
+    
+     
+}
