@@ -122,10 +122,46 @@ int main()
 
 ---------------------------------------------------------------------------------------------------------------
 
+***************************************************************************************************************
+ARRAY
+***************************************************************************************************************
+- GROUP OF SIMILAR TYPE OF DATA
+- ARRAY STORES ELEMENT IN THE INDEX
+- ARRAY INDEX ARE ALWAYS STARTS FROM 0.
 
 
+---------------------------Basic Program--------------------------------------
 
 
+#include <stdio.h>
+
+int main()
+{
+     int a[10]={11,23,45,56,7,34,90,56,87,27};
+     printf("First Elemenet of Array: %d \n",a[0]);
+     printf("Last Elemenet of Array: %d \n",a[9]);
+     printf("Third Elemenet of Array: %d \n",a[2]);
+}
+
+---------------------------Let's Take input From user-------------------------------------------
+
+
+#include <stdio.h>
+
+int main()
+{
+     int a[10]={23,56,7,11,78,87,23,65,32,55};
+     
+     int num;
+     printf("Find Element: ");
+     scanf("%d",&num);
+     
+    if(num<10){
+        printf("Element of Array:  %d \n",a[num]);
+    }else{
+        printf("Please give Proper Input");
+    }
+}
 
 
 
