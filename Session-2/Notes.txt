@@ -163,14 +163,37 @@ int main()
     }
 }
 
+***************************************************************************************************************
+STRING DEMO
+***************************************************************************************************************
 
 
+#include <stdio.h>
+
+int main()
+{
+    char name[]="Nikunj Soni";
+    char phone[]="987654321";
+    printf("MyName: %s \n",name);
+    printf("Phone no: %s \n",phone);
+}
 
 
+***************************************************************************************************************
+LET'S DO SOME EXAMPLES WITH C++
+***************************************************************************************************************
 
+#include <iostream>
+using namespace std;
 
-
-
-
-
-
+int main()
+{
+    int number=20;
+    cout<<"Hello World \n";
+    cout<<"My Name is Nikunj"<<endl;
+    cout<<"My roll Number is :"<<number<<endl;
+    
+    //cout<< -----------is used for printing output in console
+    //endl -------------is used for endling a line and print next line 
+    //either use \n or endl
+}
